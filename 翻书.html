@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+    <style type="text/css">
+	    body,div,ul,dl,ol,li,p,h1,h3,h4,h5,span{
+            margin:0;
+            padding:0;
+        }
+        ul,ol,i,p,li{list-style:none;}
+        a{
+            text-decoration:none;
+            color;
+        }
+        img{bordor:none;}
+        body{background:#333;-webkit-perspective: 600;perspective: 600;transform-style:preserve-3d;}
+        .wrq{width:400px; height:210px;background:white;margin:200px auto;transform:rotateX(30deg);transform-style:preserve-3d;position:relative}
+        li{height:210px;width:195px;transform-origin:left;position:absolute;top:0;right:0; background:white;}
+        .wrq_li{animation:fans 2s linear infinite}
+        .wrq_li1{animation:fans 2s linear 0.5s infinite}
+        .wrq_li2{animation:fans 2s linear 1s infinite}
+        .wrq_li3{animation:fans 2s linear 1.5s infinite}
+        @keyframes fans{
+        	   from{transform:translate(px) rotateY(0deg)}
+        	   to{transform:translate(-10px) rotateY(-180deg)}
+        }
+      
+	</style>
+	</style>
+ <body> 
+     <ul class="wrq">
+     	   <li class="wrq_li"></li>
+     	   <li class="wrq_li1"></li>
+     	   <li class="wrq_li2"></li>
+     	   <li class="wrq_li3"></li>
+     </ul>
+ </body>
+</html>
